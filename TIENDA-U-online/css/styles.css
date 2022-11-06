@@ -572,17 +572,20 @@ footer {
 
     .navbar-top {
         background: var(--dark);
+      
     }
 
+    /* MOVER CARRITO DE COMPRAS*/
     .navbar-top-ul {
         display: flex;
         margin: 0;
         padding: 0.5rem;
-        justify-content: space-around;
+        justify-content: end;
     }
 
     .navbar-top-links {
         color: #ffffff;
+        
     }
 
     .navbar-top-links:hover {
@@ -730,7 +733,7 @@ footer {
 }
 
 .banner-cover {
-    background-image: url(../img/banner.png);
+    background-image: url(../img/ITEM2UP.png);
     height: 100vh;
 }
 
@@ -756,12 +759,12 @@ footer {
 }
 
 .banner-cover {
-    background-image: url(../img/banner.png);
+    background-image: url(../img/ITEMUP1.png);
     height: 100vh;
 }
 
 .banner-second {
-    background-image: url(../img/banner-second.jpg);
+    background-image: url(../img/ITEM4UP.png);
     height: 50vh;
     margin-bottom: 1rem;
     position: relative;
@@ -786,11 +789,11 @@ footer {
     }
 
     .banner .title-cover {
-        font-size: 20rem;
+        font-size: 10rem;
     }
 
     .banner .btn {
-        position: absolute;
+        position: static;
         right: 60px;
         bottom: 60px;
     }
@@ -798,7 +801,11 @@ footer {
 
 @media screen and (min-width: 1023px) {
     .banner-cover {
-        background-image: url(../img/banner-large.jpg);
+        background-image: url(../img/pruebadef.png);
+        height: 1000px;
+        position: relative;
+      
+        
     }
 }
 
@@ -926,13 +933,22 @@ footer {
     color: var(--primary);
 }
 
+
+
+/* footer */
+
 .footer {
-    background: var(--dark-lighten);
-    margin-top: 1rem;
-    padding: 24px 0px 0px 0px;
+    background: var(--dark);
+    background-position: 10%;
+    margin-top: 10rem;
+   width: 100%;
+   height: 200px;
+   align-self: flex-end;
+    padding: 20px 10px 0px 0px;
+
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .footer {
         display: flex;
         flex-direction: column;
@@ -944,53 +960,53 @@ footer {
     margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .footer-ul {
         width: auto;
     }
 }
 
+
+ /*TITULOS FOOTER*/
 .footer-item {
     margin: 1rem;
+    color: white ;
+    font-size: 110%;
 }
+
+
+
+/*links de footer gmail etc*/
 
 .footer-link {
-    color: var(--dark);
+    color: white;
+
 }
 
+/* COLOCAR PUNTERO ENCIMA DE LINKS FOOTER */
 .footer-link:hover {
-    color: var(--primary);
+    color: #00c8c8;
 }
 
-.footer-socials {
-    background: var(--primary);
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    color: #ffffff;
-    margin-bottom: 1rem;
-}
+
+
+/* footer redes socialees  */
 
 .footer-solcials-link {
     color: #ffffff;
     font-size: 2em;
+    margin: 6%;
+}
+.footer-solcials-link:hover {
+    color: #00c8c8;
 }
 
-.footer-bar-top {
-    background: var(--dark);
-}
 
-.footer-bar-top-links {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
-}
 
-.footer-bar-top-links:hover {
-    color: var(--primary);
-}
+
+
+
+
 
 .form-group {
     width: 90%;
